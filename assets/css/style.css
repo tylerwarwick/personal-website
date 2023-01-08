@@ -7,18 +7,18 @@
     --header-height: 3rem;
 
     /* @@@@@ Colours @@@@@ */
-    --first-color: #57e089;
-    --first-color-second: #57e089;
-    --first-color-alt: #43cb75;
-    --first-color-light: #b5fcce;
-    --title-color: #232925;
-    --text-color: #6a7c70;
-    --text-color-light: #94a499;
-    --input-color: #eefcf3;
-    --body-color: #fbfefc;
-    --container-color: #FFF;
-    --scroll-bar-color: #e2e9e5;
-    --scroll-thumb-color: #c6d2ca;
+    --first-color: hsl(240, 79%, 33%);
+    --first-color-second: hsl(240, 79%, 33%);
+    --first-color-alt: hsl(240, 67%, 25%);
+    --first-color-light: hsl(240, 88%, 88%);
+    --title-color: hsl(140, 8%, 15%);
+    --text-color: hsl(240, 8%, 45%);
+    --text-color-light: hsl(240, 8%, 61%);
+    --input-color: hsl(241, 70%, 96%);
+    --body-color: hsl(240, 60%, 99%);
+    --container-color: #ffffff;
+    --scroll-bar-color: hsl(146, 14%, 90%);
+    --scroll-thumb-color: hsl(140, 12%, 80%);
 
     /* @@@@@ Fonts @@@@@ */
     --body-font: 'Roboto', sans-serif;
@@ -70,14 +70,14 @@
 /*  @@@@@@@@@@@@@@@@@@@@ Variables Dark Theme @@@@@@@@@@@@@@@@@@@@ */
 body.dark-theme{
     /* @@@@@ Colours @@@@@ */
-    --first-color-second: #0e1b13;
-    --title-color: #f1f3f2;
-    --text-color: #bac4be;
-    --input-color: #1d3525;
-    --body-color: #16271c;
-    --container-color: #1d3525;
-    --scroll-bar-color: #6c8978;
-    --scroll-thumb-color: #516758;
+    --first-color-second: hsl(241, 42%, 12%);
+    --title-color: hsl(250, 8%, 95%);
+    --text-color: hsl(244, 8%, 75%);
+    --input-color: hsl(240, 29%, 16%);
+    --body-color: hsl(241, 28%, 12%);
+    --container-color: hsl(240, 29%, 16%);
+    --scroll-bar-color: hsl(245, 12%, 48%);
+    --scroll-thumb-color: hsl(239, 12%, 36%);
 }
 
 
@@ -303,11 +303,11 @@ img{
 
 .home__blob{
     width: 200px;
-    fill: var(--first-color);
+    fill:  var(--first-color);
 }
 
 .home__blob-img{
-    width: 170px;
+    width: 250px;
 }
 
 .home__data{
@@ -372,7 +372,7 @@ button{
 }
 
 .button:hover{
-    background-color: #43cb75;
+    background-color: var(--first-color-alt);
 }
 
 .button__icon{
@@ -388,8 +388,8 @@ button{
 
 /*  @@@@@@@@@@@@@@@@@@@@ About @@@@@@@@@@@@@@@@@@@@ */
 .about__img{
-    width: 200px;
-    border-radius: .5rem;
+    width: 300px;
+    border-radius: 1rem;
     justify-self: center;
     align-self: center;
 }
@@ -484,12 +484,12 @@ button{
 }
 
 .skills__bar{
-    background-color: #b6fccf;
+    background-color: var(--first-color-light);
 }
 
 .skills__percentage{
     display: block;
-    background-color: #57e089;
+    background-color: var(--first-color);
 }
 
 /* Come back and change percentage bars when we decide on percentages*/
