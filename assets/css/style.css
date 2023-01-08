@@ -7,18 +7,18 @@
     --header-height: 3rem;
 
     /* @@@@@ Colours @@@@@ */
-    --first-color: hsl(240, 79%, 33%);
-    --first-color-second: hsl(240, 79%, 33%);
-    --first-color-alt: hsl(240, 67%, 25%);
-    --first-color-light: hsl(240, 88%, 88%);
-    --title-color: hsl(140, 8%, 15%);
-    --text-color: hsl(240, 8%, 45%);
-    --text-color-light: hsl(240, 8%, 61%);
-    --input-color: hsl(241, 70%, 96%);
-    --body-color: hsl(240, 60%, 99%);
+    --first-color: #121297;
+    --first-color-second: #121297;
+    --first-color-alt: #15156a;
+    --first-color-light: #c5c5fb;
+    --title-color: #232925;
+    --text-color: #6a6a7c;
+    --text-color-light: #9494a4;
+    --input-color: #eeeefc;
+    --body-color: #fbfbfe;
     --container-color: #ffffff;
-    --scroll-bar-color: hsl(146, 14%, 90%);
-    --scroll-thumb-color: hsl(140, 12%, 80%);
+    --scroll-bar-color: #e2e9e5;
+    --scroll-thumb-color: #c6d2ca;
 
     /* @@@@@ Fonts @@@@@ */
     --body-font: 'Roboto', sans-serif;
@@ -70,14 +70,14 @@
 /*  @@@@@@@@@@@@@@@@@@@@ Variables Dark Theme @@@@@@@@@@@@@@@@@@@@ */
 body.dark-theme{
     /* @@@@@ Colours @@@@@ */
-    --first-color-second: hsl(241, 42%, 12%);
-    --title-color: hsl(250, 8%, 95%);
-    --text-color: hsl(244, 8%, 75%);
-    --input-color: hsl(240, 29%, 16%);
-    --body-color: hsl(241, 28%, 12%);
-    --container-color: hsl(240, 29%, 16%);
-    --scroll-bar-color: hsl(245, 12%, 48%);
-    --scroll-thumb-color: hsl(239, 12%, 36%);
+    --first-color-second: #12122b;
+    --title-color: #f2f1f3;
+    --text-color: #bbbac4;
+    --input-color: #1d1d35;
+    --body-color: #161627;
+    --container-color: #1d1d35;
+    --scroll-bar-color: #6e6c89;
+    --scroll-thumb-color: #515167;
 }
 
 
