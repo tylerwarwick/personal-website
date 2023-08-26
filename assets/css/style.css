@@ -493,6 +493,11 @@ button{
 }
 
 /* Come back and change percentage bars when we decide on percentages*/
+.skills__default{
+    width: 100%;
+}
+
+
 .skills__c,
 .skills__autocad,
 .skills__solidworks{
