@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyler Warwick</title>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@ Icons @@@@@@@@@@@@@@@@@@@@ -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- @@@@@@@@@@@@@@@@@@@@ CSS @@@@@@@@@@@@@@@@@@@@ -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- @@@@@@@@@@@@@@@@@@@@ Swiper CSS @@@@@@@@@@@@@@@@@@@@ -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+</head>
+<body>
+    <!-- @@@@@@@@@@@@@@@@@@@@ Header @@@@@@@@@@@@@@@@@@@@ -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Tyler</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i> Experience
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i> Projects
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contact Me
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    <!-- Theme Change Button -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+        </nav>
+    </header>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@ Main @@@@@@@@@@@@@@@@@@@@ -->
+    <main class="main">
+        <!-- @@@@@@@@@@@@@@@@@@@@ Home @@@@@@@@@@@@@@@@@@@@ -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/tyler-warwick-1562b9227/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+
+                        <a href="https://github.com/tylerwarwick" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+
+                                <image class="home__blob-img" x='-12' y='-50' xlink:href="assets/media/IMG_8484.jpeg"/>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi I'm Tyler</h1>
+                        <h3 class="home__subtitle">Aspiring Physician & BSc (Hons) Physical Science</h3>
+                        <p class="home__description"> 
+                            Science and engineering graduate pursuing medicine, with a background spanning clinical volunteering, data analysis, and software development. Committed to rural family medicine and community-centred care.
+                        </p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me <i class="uil uil-message button__icon"></i> 
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- @@@@@@@@@@@@@@@@@@@@ About @@@@@@@@@@@@@@@@@@@@ -->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">Introduction</span>
+
+            <div class="about__container container grid">
+                <img src="assets/media/action2.JPG" alt="" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">
+                        Science and engineering student turned aspiring physician. After beginning my degree in biochemistry and moving through systems engineering, I've found my path in medicine — drawn by a genuine interest in people, a background in data and clinical environments, and a commitment to returning to the rural community I grew up in.
+                         <br> <br>
+                        I'm pursuing medicine with a focus on family practice in rural Ontario. Outside of academics, I stay active, value teamwork, and bring the same curiosity to medicine that I brought to engineering and research.
+                    </p>
+
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">91%</span>
+                            <span class="about__info-name"> Cumulative Avg </span>
+                        </div>
+
+                        <div>
+                            <span class="about__info-title">522</span>
+                            <span class="about__info-name"> MCAT (99th %ile) </span>
+                        </div>
+
+                        <div>
+                            <span class="about__info-title">Rural</span>
+                            <span class="about__info-name"> Medicine Focus </span>
+                        </div>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a download="" href="assets/media/TW_Resume_2023.pdf" class="button button--flex">
+                            Download Resume<i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- @@@@@@@@@@@@@@@@@@@@ Skills @@@@@@@@@@@@@@@@@@@@ -->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">Technical Level</span>
+
+            <div class="skills__container container grid">
+                <!-- @@@@@@@@@@@@@@@@@@@@ Skills 1 @@@@@@@@@@@@@@@@@@@@ -->
+                <div class="skills__content skills__open">
+                    <div class="skills__header">
+                        <i class="uil uil-brackets-curly skills__icon"></i>
+
+                        <div>
+                            <h1 class="skills__titles"> Programming </h1>
+                            <span class="skills__subtitle"> Languages </span>
+                        </div>
+
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name"> Typescript/Javascript </h3>
+                                <!-- <span class="skills__number"> 90% </span> -->
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__default"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name"> C/C++ </h3>
+                                <!-- <span class="skills__number"> 90% </span> -->
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__default"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name"> Java </h3>
+                                <!-- <span class="skills__number"> 90% </span> -->
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__default"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name"> Python </h3>
+                                <!-- <span class="skills__number"> 90% </span> -->
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__default"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name"> HTML/CSS </h3>
+                                <!-- <span class="skills__number"> 90% </span> -->
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__default"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name"> SQL </h3>
+                                <!-- <span class="skills__number"> 90% </span> -->
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__default"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name"> .NET </h3>
+                                <!-- <span class="skills__number"> 90% </span> -->
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__default"></span>
+                            </div>
+                        </div>
+
+                    </div> 
+                </div>
+
+                <!-- Frameworks -->
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="uil  uil-programming-language skills__icon"></i>
+
+                        <div>
+                            <h1 class="skills__titles"> Web Development</h1>
+                            <span class="skills__subtitle"> Frameworks </span>
+                        </div>
+
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name"> React </h3>
+                                <!-- <span class="skills__number"> 90% </span> -->
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__default"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name"> Express </h3>
+                                <!-- <span class="skills__number"> 90% </span> -->
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__default"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name"> Node.js </h3>
+                                <!-- <span class="skills__number"> 90% </span> -->
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__default"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name"> Flask </h3>
+                                <!-- <span class="skills__number"> 90% </span> -->
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__default"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name"> Tailwind CSS </h3>
+                                <!-- <span class="skills__number"> 90% </span> -->
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__default"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name"> Mongoose </h3>
+                                <!-- <span class="skills__number"> 90% </span> -->
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__default"></span>
+                            </div>
+                        </div>
+
+                    </div> 
+                </div>
+            
+                <!-- @@@@@@@@@@@@@@@@@@@@ Skills 2 @@@@@@@@@@@@@@@@@@@@ -->
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="uil uil-heart-medical skills__icon"></i>
+
+                        <div>
+                            <h1 class="skills__titles"> Clinical </h1>
+                            <span class="skills__subtitle"> Competencies </span>
+                        </div>
+
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name"> Patient Interaction </h3>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__default"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name"> Adaptive Communication </h3>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__default"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name"> Psychiatric Care Environments </h3>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__default"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name"> Crisis Prevention </h3>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__default"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name"> Confidentiality & Protocol </h3>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__default"></span>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+
+                <!-- Developer Tools -->
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="uil  uil-code-branch skills__icon"></i>
+
+                        <div>
+                            <h1 class="skills__titles"> Developer </h1>
+                            <span class="skills__subtitle"> Tools </span>
+                        </div>
+
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name"> Git </h3>
+                                <!-- <span class="skills__number"> 90% </span> -->
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__default"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name"> MongoDB </h3>
+                                <!-- <span class="skills__number"> 90% </span> -->
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__default"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name"> AWS </h3>
+                                <!-- <span class="skills__number"> 90% </span> -->
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__default"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name"> Visual Studio </h3>
+                                <!-- <span class="skills__number"> 90% </span> -->
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__default"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name"> Vim </h3>
+                                <!-- <span class="skills__number"> 90% </span> -->
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__default"></span>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        
+        <!-- @@@@@@@@@@@@@@@@@@@@ Experience @@@@@@@@@@@@@@@@@@@@ -->
+        <section class="qual sections" id="experience">
+            <h2 class="section__title">Experience</h2>
+            <span class="section__subtitle">Personal Journey</span>
+
+            <div class="qual__containter container">
+                <div class="qual__tabs">
+                    <div class="qual__button button--flex" data-target="#education">
+                        <i class="uil uil-university qual__icon"></i>
+                        Education
+                    </div>
+
+                    <div class="qual__button button--flex qual__active" data-target="#work">
+                        <i class="uil uil-briefcase qual__icon"></i>
+                        Work
+                    </div>
+                </div>
+
+                <div class="qual__sections">
+                    <!-- @@@@@@@@@@@@@@@@@@@@ Experience Content - Education @@@@@@@@@@@@@@@@@@@@ -->
+                    <div class="qual__content" data-content id="education">
+
+                        <!-- @@@@@@@@@@@@@@@@@@@@ Qualification 1 @@@@@@@@@@@@@@@@@@@@ -->
+                        <div class="qual__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qual__rounder"></span>
+                                <span class="qual__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qual__title">BSc (Hons) Physical Science</h3>
+                                <span class="qual__subtitle">University of Guelph</span>
+                                <div class="qual__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2022 – Present
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- @@@@@@@@@@@@@@@@@@@@ Qualification 2 @@@@@@@@@@@@@@@@@@@@ -->
+                        <div class="qual__data">
+                            <div>
+                                <h3 class="qual__title">MCAT – 522 (99th Percentile)</h3>
+                                <span class="qual__subtitle">University of Guelph</span>
+                                <div class="qual__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2024
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qual__rounder"></span>
+                                <span class="qual__line"></span>
+                            </div>
+                        </div>
+
+                        <!-- @@@@@@@@@@@@@@@@@@@@ Qualification 3 @@@@@@@@@@@@@@@@@@@@ -->
+                        <div class="qual__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qual__rounder"></span>
+                                <span class="qual__line"></span>
+                            </div>
+                             
+                            <div>
+                                <h3 class="qual__title">Systems Engineering</h3>
+                                <span class="qual__subtitle">University of Guelph</span>
+                                <div class="qual__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2020 – 2022
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- @@@@@@@@@@@@@@@@@@@@ Qualification 4 @@@@@@@@@@@@@@@@@@@@ -->
+                        <div class="qual__data">
+                            <div>
+                                <h3 class="qual__title">High School</h3>
+                                <span class="qual__subtitle">Blenheim District HS</span>
+                                <div class="qual__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2016 – 2020
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qual__rounder"></span>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                    <!-- @@@@@@@@@@@@@@@@@@@@ Experience Content - Work @@@@@@@@@@@@@@@@@@@@ -->
+                    <div class="qual__content qual__active" data-content id="work">
+                         <!-- @@@@@@@@@@@@@@@@@@@@ Experience 1 @@@@@@@@@@@@@@@@@@@@ -->
+                         <div class="qual__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qual__rounder"></span>
+                                <span class="qual__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qual__title">Clinical Volunteer</h3>
+                                <span class="qual__subtitle">Homewood Health Centre</span>
+                                <div class="qual__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    March 2025 – Present
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- @@@@@@@@@@@@@@@@@@@@ Experience 2 @@@@@@@@@@@@@@@@@@@@ -->
+                        <div class="qual__data">
+                            <div>
+                                <h3 class="qual__title">Teaching Assistant, Electrical Circuits</h3>
+                                <span class="qual__subtitle">University of Guelph</span>
+                                <div class="qual__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    Jan 2025 – Apr 2025
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qual__rounder"></span>
+                                <span class="qual__line"></span> 
+                            </div>
+                        </div>
+
+                        <!-- @@@@@@@@@@@@@@@@@@@@ Experience 3 @@@@@@@@@@@@@@@@@@@@ -->
+                        <div class="qual__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qual__rounder"></span>
+                                <span class="qual__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qual__title">Web Developer</h3>
+                                <span class="qual__subtitle">ERCO Worldwide</span>
+                                <div class="qual__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    May 2024 – Sept 2024
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- @@@@@@@@@@@@@@@@@@@@ Experience 4 @@@@@@@@@@@@@@@@@@@@ -->
+                        <div class="qual__data">
+                            <div>
+                                <h3 class="qual__title">Data Analyst</h3>
+                                <span class="qual__subtitle">Community Living Wallaceburg</span>
+                                <div class="qual__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    May 2023 – Sept 2023
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qual__rounder"></span>
+                                <span class="qual__line"></span>
+                            </div>
+                        </div>
+
+                        <!-- @@@@@@@@@@@@@@@@@@@@ Experience 5 @@@@@@@@@@@@@@@@@@@@ -->
+                        <div class="qual__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qual__rounder"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qual__title">Emergency Supply Teacher</h3>
+                                <span class="qual__subtitle">Wellington Catholic DSB</span>
+                                <div class="qual__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    April 2022 – Present
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- @@@@@@@@@@@@@@@@@@@@ Projects @@@@@@@@@@@@@@@@@@@@ -->
+        <section class="portfolio section" id="portfolio"> 
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">Most Recent Work</span>
+
+            <div class="portfolio__container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    
+
+                    <!-- @@@@@@@@@@@@@@@@@@@@ Project 1 @@@@@@@@@@@@@@@@@@@@ -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/media/64dbe24d6afbbf573570d3c2 copy.jpeg" alt="" class="portfolio__img">
+    
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">StudyBuddy</h3>
+                            <p class="portfolio__description">
+                                Developed StudyBuddy, a responsive web app using Typescript, 
+                                Tailwind CSS, React, Express, and MongoDB. Enhanced learning 
+                                through active recall-based memorization, integrated a secure 
+                                JWT-based authentication system, and ensured adaptability across
+                                 devices with Tailwind CSS.
+                            </p>
+    
+                        </div>
+                    </div>
+
+                    <!-- @@@@@@@@@@@@@@@@@@@@ Project 2 @@@@@@@@@@@@@@@@@@@@ -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/media/neutral-network-diagram.svg" alt="" class="portfolio__img">
+    
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Digit Recognition Network</h3>
+                            <p class="portfolio__description">
+                                Developed a Digit Recognition Network from scratch 
+                                using Python and NumPy, employing linear algebra concepts
+                                 to achieve 90% accuracy in handwritten digit recognition. 
+                                 Conducted extensive benchmarking, exploring various activation 
+                                 functions, optimization techniques, and hyperparameters to
+                                  ensure optimal model performance.
+                            </p>
+    
+                        </div>
+                    </div>
+
+
+
+                    <!-- @@@@@@@@@@@@@@@@@@@@ Car @@@@@@@@@@@@@@@@@@@@ -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/media/car.JPG" alt="" class="portfolio__img">
+    
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Autonomous Car</h3>
+                            <p class="portfolio__description">
+                                Led the full-cycle development of an autonomous car project,
+                                 seamlessly integrating sensors and DC motors using C/C++ 
+                                 programming and circuitry skills. Designed and optimized 
+                                 breadboard circuits, experimenting with diverse sensors like 
+                                 ultrasonic and infrared for accurate obstacle detection and line following.
+                                
+                            </p>
+    
+                        </div>
+                    </div>
+
+                    <!-- @@@@@@@@@@@@@@@@@@@@ Personal Website @@@@@@@@@@@@@@@@@@@@ -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/media/website3.webp" alt="" class="portfolio__img">
+    
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Personal Website</h3>
+                            <p class="portfolio__description">
+                                Designed and developed a personal website using HTML and CSS, 
+                                showcasing my skills, experience, and journey from engineering 
+                                to medicine. Built with a responsive layout and clean design.
+                            </p>
+    
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+    
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </section>
+        
+        
+        <!-- Swiper JS -->
+        <script src="assets/js/swiper-bundle.min.js"></script> 
+          
+ 
+        <!-- @@@@@@@@@@@@@@@@@@@@ Contact Me @@@@@@@@@@@@@@@@@@@@ -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <!-- <span class="section__subtitle">Get in touch</span> -->
+            &nbsp;
+
+            <div class="contact__container container grid"> 
+                <div>
+                    <div class="contact__info">
+                        <i class="uil uil-phone contact__icon"></i>
+                    
+
+                        <div>
+                            <h3 class="contact__title">Call Me</h3>
+                            <span class="contact__subtitle">226-626-3267</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__info">
+                        <i class="uil uil-envelope contact__icon"></i>
+                    
+
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="04707d686176736576736d676f736b766f446369656d682a676b69">[email&#160;protected]</a></span>
+                        </div>
+                    </div>
+
+                    <div class="contact__info">
+                        <i class="uil uil-map-marker contact__icon"></i>
+                    
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">Guelph ON</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <form action="https://formsubmit.co/6a05e2a873e969e73975d5e8ed131a9d" method="POST" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input type="text" class="contact__input" name="name" required>
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email" class="contact__input" name="email" required>
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea class="contact__input" name="message" rows="7" required></textarea>
+                    </div>
+
+                    <div>
+                        <button class="button button--flex" id="contact-button">
+                            Send Message
+                            <i class="uil uil-message button__icon"></i>
+                        </button>
+                    </div>
+
+                    <input type="hidden" name="_template" value="table">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@ Footer @@@@@@@@@@@@@@@@@@@@ -->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Tyler Warwick</h1>
+                    <span class="footer__subtitle">Aspiring Physician | BSc Physical Science</span>
+                </div>
+
+                <ul>
+                    <li>
+                        <a href="#skills" class="footer__link">Skills</a>
+                    </li>
+
+                    <li>
+                        <a href="#experience" class="footer__link">Experience</a>
+                    </li>
+
+                    <li>
+                        <a href="#portfolio" class="footer__link">Projects</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.instagram.com/tylerwarwick_/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@ Scroll Top @@@@@@@@@@@@@@@@@@@@ -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a
